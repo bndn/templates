@@ -20,3 +20,15 @@ The ignore list encompasses the following operating systems and editors, so you 
 - Visual Studio
 - Visual Studio Code
 - JetBrains IDEs
+
+## [EditorConfig](http://editorconfig.org/)
+
+The [`.editorconfig`](.editorconfig) file ensures consistent formatting of things such as indentation, character sets, whitespace trimming, and more across editors and IDEs. Its use is crucial when working in teams were developers author code–or any text files for that matter–across a variety of editors. Make sure to [download a plugin](http://editorconfig.org/#download) for your editor of choice in order to support this configuration file.
+
+The configuration file dictates the following formatting settings:
+
+- 4-space indentation (single tabs used in Makefiles)
+- Unix line feed (LF) newlines
+- UTF-8 character set
+- Trimming of trailing whitespace (does not apply to Markdown)
+- Insertion of a single newline at the end of files
